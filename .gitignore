@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.env
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model files
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Training outputs
+results/
+runs/
+checkpoints/
+
+# Hugging Face cache
+.cache/
+huggingface_cache/
+
+# OS
+.DS_Store
+Thumbs.db
